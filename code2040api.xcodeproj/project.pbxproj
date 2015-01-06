@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		0C72C1C11A315E0900563B6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C72C1C01A315E0900563B6B /* main.cpp */; };
 		0C72C1C31A315E0900563B6B /* code2040api.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C72C1C21A315E0900563B6B /* code2040api.1 */; };
-		DD59D07A1A3EB3A40044E954 /* stringutils.cc in Sources */ = {isa = PBXBuildFile; fileRef = DD59D0781A3EB3A40044E954 /* stringutils.cc */; };
-		DD59D07D1A3EB77B0044E954 /* strlib.cc in Sources */ = {isa = PBXBuildFile; fileRef = DD59D07B1A3EB77B0044E954 /* strlib.cc */; };
-		DD59D0801A3EB9690044E954 /* error.cc in Sources */ = {isa = PBXBuildFile; fileRef = DD59D07E1A3EB9690044E954 /* error.cc */; };
+		DD29C7721A59E7DD004670C9 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD29C7711A59E7DD004670C9 /* libcurl.dylib */; };
+		DD626AF31A5B9366003C56E0 /* strlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD626AF21A5B9366003C56E0 /* strlib.cpp */; };
+		DD626AF51A5B9390003C56E0 /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD626AF41A5B9390003C56E0 /* error.cpp */; };
 		DD6FA4911A54965A007828C7 /* libboost_serialization.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6FA4901A54965A007828C7 /* libboost_serialization.dylib */; };
 		DD6FA4921A54974E007828C7 /* libboost_serialization.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = DD6FA4901A54965A007828C7 /* libboost_serialization.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		DD6FA4941A549AB4007828C7 /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD6FA4931A549AB4007828C7 /* libboost_system.dylib */; };
@@ -37,15 +37,13 @@
 		0C72C1BD1A315E0900563B6B /* code2040api */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = code2040api; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C72C1C01A315E0900563B6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0C72C1C21A315E0900563B6B /* code2040api.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = code2040api.1; sourceTree = "<group>"; };
-		DD59D0781A3EB3A40044E954 /* stringutils.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stringutils.cc; path = ../stringutils.cc; sourceTree = "<group>"; };
-		DD59D0791A3EB3A40044E954 /* stringutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stringutils.h; path = ../stringutils.h; sourceTree = "<group>"; };
-		DD59D07B1A3EB77B0044E954 /* strlib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = strlib.cc; path = ../strlib.cc; sourceTree = "<group>"; };
+		DD29C7711A59E7DD004670C9 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		DD59D07C1A3EB77B0044E954 /* strlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = strlib.h; path = ../strlib.h; sourceTree = "<group>"; };
-		DD59D07E1A3EB9690044E954 /* error.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = error.cc; sourceTree = "<group>"; };
-		DD59D07F1A3EB9690044E954 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		DD626AF21A5B9366003C56E0 /* strlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = strlib.cpp; path = "../../../developer/stanford-cpp-library/StanfordCPPLib/strlib.cpp"; sourceTree = "<group>"; };
+		DD626AF41A5B9390003C56E0 /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = error.cpp; path = "../../../developer/stanford-cpp-library/StanfordCPPLib/error.cpp"; sourceTree = "<group>"; };
+		DD626AF61A5B93A5003C56E0 /* error.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = error.h; path = "../../../developer/stanford-cpp-library/StanfordCPPLib/error.h"; sourceTree = "<group>"; };
 		DD6FA4901A54965A007828C7 /* libboost_serialization.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libboost_serialization.dylib; sourceTree = "<group>"; };
 		DD6FA4931A549AB4007828C7 /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libboost_system.dylib; sourceTree = "<group>"; };
-		DD7DE6D31A3EE69800C205F4 /* my_exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = my_exception.h; path = ../my_exception.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD29C7721A59E7DD004670C9 /* libcurl.dylib in Frameworks */,
 				DD6FA4911A54965A007828C7 /* libboost_serialization.dylib in Frameworks */,
 				DD6FA4941A549AB4007828C7 /* libboost_system.dylib in Frameworks */,
 			);
@@ -64,6 +63,7 @@
 		0C72C1B41A315E0900563B6B = {
 			isa = PBXGroup;
 			children = (
+				DD29C7711A59E7DD004670C9 /* libcurl.dylib */,
 				0C72C1BF1A315E0900563B6B /* code2040api */,
 				0C72C1BE1A315E0900563B6B /* Products */,
 			);
@@ -83,13 +83,10 @@
 				0C72C1C01A315E0900563B6B /* main.cpp */,
 				DD6FA4901A54965A007828C7 /* libboost_serialization.dylib */,
 				DD6FA4931A549AB4007828C7 /* libboost_system.dylib */,
-				DD7DE6D31A3EE69800C205F4 /* my_exception.h */,
-				DD59D0781A3EB3A40044E954 /* stringutils.cc */,
-				DD59D07B1A3EB77B0044E954 /* strlib.cc */,
-				DD59D07E1A3EB9690044E954 /* error.cc */,
-				DD59D07F1A3EB9690044E954 /* error.h */,
+				DD626AF61A5B93A5003C56E0 /* error.h */,
+				DD626AF21A5B9366003C56E0 /* strlib.cpp */,
+				DD626AF41A5B9390003C56E0 /* error.cpp */,
 				DD59D07C1A3EB77B0044E954 /* strlib.h */,
-				DD59D0791A3EB3A40044E954 /* stringutils.h */,
 				0C72C1C21A315E0900563B6B /* code2040api.1 */,
 			);
 			path = code2040api;
@@ -147,9 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C72C1C11A315E0900563B6B /* main.cpp in Sources */,
-				DD59D07D1A3EB77B0044E954 /* strlib.cc in Sources */,
-				DD59D07A1A3EB3A40044E954 /* stringutils.cc in Sources */,
-				DD59D0801A3EB9690044E954 /* error.cc in Sources */,
+				DD626AF31A5B9366003C56E0 /* strlib.cpp in Sources */,
+				DD626AF51A5B9390003C56E0 /* error.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

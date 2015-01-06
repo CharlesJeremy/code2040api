@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0571D48B-3F61-464C-A3C2-607128ACE104</string>
+	<key>IDESourceControlProjectName</key>
+	<string>code2040api</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6FA0A09F6FE525FBD49BB3EF24D202937DF5A212</key>
+		<string>https://github.com/stepp/stanford-cpp-library.git</string>
+		<key>B0305E7948FA39FF06DC8E3ED1A7D913CF5B2AAC</key>
+		<string>https://github.com/CharlesJeremy/code2040api.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>code2040api.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6FA0A09F6FE525FBD49BB3EF24D202937DF5A212</key>
+		<string>../../../../developer/stanford-cpp-library</string>
+		<key>B0305E7948FA39FF06DC8E3ED1A7D913CF5B2AAC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CharlesJeremy/code2040api.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B0305E7948FA39FF06DC8E3ED1A7D913CF5B2AAC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B0305E7948FA39FF06DC8E3ED1A7D913CF5B2AAC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>code2040api</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6FA0A09F6FE525FBD49BB3EF24D202937DF5A212</string>
+			<key>IDESourceControlWCCName</key>
+			<string>stanford-cpp-library</string>
+		</dict>
+	</array>
+</dict>
+</plist>
